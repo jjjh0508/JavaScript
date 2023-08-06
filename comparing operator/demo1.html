@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        console.log(1==2);
+        console.log(1==1);
+        console.log("one"=="ond");
+        console.log("one"=="two");
+        
+        //일치 연산자
+        //=== 엄격한 동등 연산자
+        //정확하게 같으냐 데이터 타입도 일치해야한다
+        console.log(1==="1"); //flase
+        console.log(1=="1"); // true
+
+        var a = null;
+        // undefined 타입 정의 되지 않은  
+        // null  타입 값이 없는데 의도적으로 부여한 값
+        console.log(a);
+        console.log(null == undefined); // true; 비어있는건 맞음
+        console.log(null === undefined); // false; 하지만 타입이 다름
+
+        console.log(true ==1); // true == 일경우 1을true 로 간주 
+        console.log(true =="1"); // true == 일경우 1을true 로 간주 
+        console.log(true ==2); // false == 일경우 1외의 수를 을 false 로 간주 
+        console.log(true ===1); // false == 일경우 1을true 로 간주 
+
+        console.log(0===-0) //true
+        console.log(NaN === NaN); // false
+    </script>
+</body>
+</html>
