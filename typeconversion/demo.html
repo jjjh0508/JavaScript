@@ -28,11 +28,13 @@
        String(null),
        String(undefined)
        );
-        console.log(
+        console.log( // "문자"가 포함되면 NaN
        Number("1234"),
        Number(true),  //1
        Number(false) //0
         );
+        // Number(null) 0
+        // Number(undefined) NaN
 
         console.log(
         Boolean(0), // 0 false , 빈 문자열 null, undefined NaN는 false 나머지는 true
@@ -40,7 +42,12 @@
         Boolean(null),
         Boolean(undefined),
         Boolean(NaN)
-        )
+        );
+
+        Boolean(0) // false
+        Boolean("0") //true
+        Boolean('')// false
+        Boolean(' ')// true
     </script>
 </body>
 </html>
