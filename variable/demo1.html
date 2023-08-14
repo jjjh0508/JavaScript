@@ -17,11 +17,34 @@
         console.log(first+'everybody');
         var c = 'coding' , d = 'everybody';
         console.log(c+d);
-
+        //문자형(String)은 3가지로 선언가능
+        const nama1= "Mike";
+        const nama2= 'Mike';
+        const nama3= `Mike`;
+        
+        //``은 문자열 내부에 변수를 넣을때 편리
+        const message1 = `My name is ${name}`;
+        const message2 = `나는  ${30+1}살`;
+        console.log(message);
         var var1 = 10; // 중복선언 가능 , 재할당 가능
         let let1 = 10; // 중복선언 불가능, 재할당 가능
-        const const1 = 10; // 상수 
+        const CONST1 = 10; // 상수 
 
+
+        /*
+            변수는 문자와 숫자 , $ _ 만 사용가능
+            첫 글자는 숫자가 될 수 없다
+            예약어는 사용할 수 없다
+            가급적 상수는 대문자로 작성
+            변수명은 읽기 쉽고 이해할 수 있게 선언
+
+        */
+
+        const x = 1/0;  // Infinity
+        const y = nama/2; // NaN
+
+
+        
     </script>
 </body>
 </html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 함수 선언문 : 어디서든 호출가능 (호이스팅)
+        // 함수 표현식 : 코드에 도달하면 생성
+        // 화살표 함수 :  let add = (num1,num2) => {
+        //  retrun num1+num2;
+        //}
+
+        //함수 표현식
+        let showError = function(){
+            console.log('error');
+        }
+        showError();
+
+        //함수 선언문
+        showError2();
+        function showError2(){
+            console.log("error");
+        }
+
+        //화살표
+       let showError3 = () => {
+        console.log("error");
+       }
+
+       //화살표
+       const sayHello =(name)=>{
+        const mag = `Hello , ${name}`;
+        console.log(msg);
+       }
+
+       const add = (num1 , num2) =>{
+        const result =num1 + num2;
+        return result;
+       }
+
+    </script>
+</body>
+</html>

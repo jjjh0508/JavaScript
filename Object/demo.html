@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const superman = {
+        //     name : 'clark',
+        //     age : 30,
+        // }
+
+        // console.log(superman.name);
+        // console.log(superman['age']);
+        // console.log(superman);
+
+        // superman.hariColor = 'black';  //추가
+        // superman['hobby'] = 'football'; // 추가
+        // console.log(superman);
+        // delete superman.age; // 삭제
+        // console.log(superman);
+
+        // function makeObject(name,age){
+        //     return {
+        //         name : name,
+        //         age : age,
+        //         hobby : 'football',
+        //     }
+        // }
+
+        // const Mike = makeObject('Mike',30);
+        // console.log(Mike);
+
+    //     function makeObject(name , age){
+    //         return {
+    //         name ,
+    //         age ,
+    //         hobby : 'football'
+    //     }
+    // }
+    //     const Mike = makeObject("Mike",20);
+    //     console.log(Mike);
+         
+    //     console.log('age' in Mike);
+    //     console.log('birtday' in Mike);
+
+
+
+//     function isAdult(user){ // user age가 없거나 20 미만 이거나
+//         if( !('age' in user) || user.age < 20){
+//             return false;
+//         }else{
+//             return true;
+//         } 
+//     }
+
+//     const Mike ={
+//         name : "Mike",
+//         age : 30,
+//     }
+
+//     const Jane = {
+//         name : "Jane"
+//     }
+
+
+//    console.log(isAdult(Mike));
+//    console.log(isAdult(Jane));
+
+const Mike = {
+    name : 'Mike',
+    age :30
+}
+
+for(key in Mike){
+    console.log(Mike[key]);
+}
+    </script>
+</body>
+</html>

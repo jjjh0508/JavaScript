@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //or은 조건이 true이면 뒤에 조건 검사 안한다
+        //and는  첫번째 false를 발견하면 검사를 멈춘다 
+        // 자바 ||, && 랑 같음
+
+        //이름이 TOM 이거나 , 성인이면 통과
+        const name = "Mike";
+        const age = 30;
+        if(name==="TOM" || age >19){
+            console.log("통과");
+        }
+
+        if(name==="Mike" && age >19){
+            console.log("통과");
+        }else{
+            console.log("돌아가");
+        }
+
+
+        //not
+
+        const age1 = prompt("나이가?");
+        const isAdult = age1>19;
+
+        if(!isAdult){
+            console.log("돌아가");
+        }
+
+        //우선순위
+        //남자이고, 이름이 Mike, 이거나 성인이면 통과
+        const gender = 'F';
+        const name3 = 'Jane';
+        const isAdult3 = true;
+        if(gender==='M' && (name3==='Mike' || isAdult )){
+            console.log("통과");
+        }else{
+            console.log('돌아가');
+        }
+
+    </script>
+</body>
+</html>
