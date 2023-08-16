@@ -25,4 +25,5 @@ console.log(apply(decrease,5));
 
 
 //increase, decrease 두가지 모두 1회만 사용하고 있다.
+//
 console.log(apply(function(value){return value *2;},5));
