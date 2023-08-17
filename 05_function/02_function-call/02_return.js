@@ -14,7 +14,7 @@ console.log(hello("단비"));
 
 function cal(a,b){
     console.log(a+b);
-    return ;
+    return;
 }
 
 

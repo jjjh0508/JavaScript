@@ -26,7 +26,7 @@ console.log(global);
 function Dog(name,age){
     console.log(new.target); //나를 가르켜라 new 연산자를 안쓰면 undefined
     if(!new.target){
-            //재귀 함수
+            //재귀 함수   
         return new Dog(name,age);
     }
     console.log(this);
@@ -34,5 +34,5 @@ function Dog(name,age){
     this.age =age;
 };
 
-const dog =  new Dog("뽀삐",30);
+const dog =   Dog("뽀삐",30);
 console.log(dog);

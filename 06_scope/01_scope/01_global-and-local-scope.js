@@ -22,7 +22,7 @@ function outer(){
     console.log("---------");
     function inner(){
         //inner의 지역변수
-         var x = "inner's local x";
+         var x = "inner's local x"; 
         console.log(x);
         console.log(y);
         console.log(z);

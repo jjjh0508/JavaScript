@@ -19,8 +19,3 @@ console.log(age);
 // console.log(global);
 
 
-function name2(){
-    console.log(this);
-}
-
-name2();

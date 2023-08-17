@@ -3,6 +3,7 @@ var student = {
     age : 16 ,
     getInfo(){
         console.log(`${this.name}(은)는 ${this.age}세 입니다.`);
+        
     }
 };
 
