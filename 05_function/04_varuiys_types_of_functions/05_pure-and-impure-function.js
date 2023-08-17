@@ -8,6 +8,7 @@
 var cnt = 0;
 
 //순수함수
+//전달 받은 값을 변경시킴
 function increase(n){
     return ++n;
 }
@@ -16,6 +17,7 @@ cnt = increase(cnt/* cnt가 가지고 있는 값을 전달*/);
 console.log(cnt);
 
 //비순수 함수
+//전역변수의 값을 변경시킴
 function decrease(){
     return --cnt;
 }

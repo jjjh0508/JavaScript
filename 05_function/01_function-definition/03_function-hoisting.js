@@ -16,7 +16,7 @@ function hello(name){
  hi = function(name){
     return `hi ${name}님 안녕하세요`;
 }
- */
+ */ // 함수 표현식은 호이스팅할떄 선언부만 올라간다
 var hi = function(name){
     return `hi ${name}님 안녕하세요`;
 }

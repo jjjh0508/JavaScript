@@ -5,6 +5,10 @@
     console.log("익명 즉시 실행 함수! 함수 정의와 동시에 호출");
 })();
 
+(function(){
+    console.log("졸리다");
+})
+
 
 
 (function test(name){

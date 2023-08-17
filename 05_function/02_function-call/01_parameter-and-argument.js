@@ -27,8 +27,8 @@ function hi(name="아무개"){
 };
 
 
-// result=hi();
-// console.log(result);
+result=hi();
+console.log(result);
 
 // result=hi("홍길동","홍박사");
 // result=hi(1);

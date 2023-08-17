@@ -17,6 +17,7 @@ for(let i = 0; i<10 ;i++){}
 console.log(i);
 
 // console.log(y);
+//호이스팅이 안되는것  처럼 동작한다
 let y = "1";
 if(true){
     console.log(y);
